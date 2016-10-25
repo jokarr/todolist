@@ -9,14 +9,14 @@ export default class AddPostForm extends Component {
   render() {
     return (
       <li className="blog-add-post">
-        <input
+        {/* <input
           className="blog-add-post-title" type="text" placeholder="Title"
           onChange={this.props.titleChange}
           value={this.props.title}
-        />
+        /> */}
         <textarea
           className="blog-add-post-body"
-          placeholder="Body"
+          placeholder="Task List"
           onChange={this.props.bodyChange}
           value={this.props.body}
         />

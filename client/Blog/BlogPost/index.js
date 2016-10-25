@@ -56,10 +56,10 @@ export default class BlogPost extends Component {
           &&
           <div>
             <button className="delete-post" onClick={this.delete}>
-              Delete Post
+              Delete Task
             </button>
             <button className="update-post" onClick={this.edit}>
-              Update Post
+              Update Task
             </button>
           </div>
         }

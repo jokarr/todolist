@@ -112,7 +112,7 @@
 .o-auth-btn,
 .local-auth-button,
 .log-out-button {
-  transition: color .2s;
+  transition: color .5s;
 }
 
 .o-auth-btn:hover {

@@ -50,14 +50,14 @@ class Blog extends Component {
     return (
       <ul className="blog-list">
         <h1>
-          Blog Away :)
+          My Tasks :)
         </h1>
         <AddPostForm
-          title={this.state.title}
-          titleChange={this.updateState.bind(this,'title')}
+          // title={this.state.title}
+          // titleChange={this.updateState.bind(this,'title')}
           body={this.state.body}
           bodyChange={this.updateState.bind(this,'body')}
-          buttonStr={`${this.state.addOrUpdate === 'update' ? 'Update' : 'Add'} Post`}
+          buttonStr={`${this.state.addOrUpdate === 'update' ? 'Update' : 'Add'} Task`}
           buttonClickFunc={this.state.addOrUpdate === 'update' &&
           this.updatePost ||
           this.addPost}
